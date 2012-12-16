@@ -1,0 +1,33 @@
+name = Boldy
+description = A conversion of the wordpress theme by Site5.
+screenshot = screenshot.png
+
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/nivo-slider.css
+stylesheets[print][] = css/print.css
+
+scripts[] = js/jquery.autofill.js
+scripts[] = js/custom.js
+
+regions[nav_bar] = Navigation bar
+regions[search_box] = Search box
+regions[slider] = Slider
+regions[mission] = Mission
+regions[home_boxes] = Home boxes
+regions[sidebar_first] = First sidebar
+regions[content_top] = Content top
+regions[content] = Content
+regions[content_bottom] = Content bottom
+regions[footer_actions] = Footer Actions
+regions[footer] = Footer
+regions[footer_message] = Footer message
+
+; Information added by drupal.org packaging script on 2012-08-08
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "boldy"
+datestamp = "1344384396"
+
