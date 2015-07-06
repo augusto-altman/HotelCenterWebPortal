@@ -1,0 +1,1 @@
+pagina diseñada para el hotel center
